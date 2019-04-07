@@ -98,52 +98,6 @@ body{
   color: lightgreen;
 }
 
-
-
-/*styling the projects sections of the web page*/
-.projects{
-    background-color: lightyellow; 
-    height: 800px; 
-    position: relative;
-}
-
-#projectHeader{
-    text-align: center; 
-    font-size: 38px; 
-    color: darkslateblue;
-    margin: 0; 
-}
-
-/*style Ron Swanson project*/
-.quoteMachine{
-    position: absolute; 
-    top: 15%;
-    left: 5%; 
-    border: 5px solid darkmagenta;  
-    background-color: white;
-    height: 245px;
-}
-
-.quoteMachine p{
-    font-size: 15px;
-    text-align: center; 
-}
-
-/*style Tic Tac Toe project*/
-.TTT{
-    position: absolute; 
-    top: 15%; 
-    left: 40%; 
-    border: 5px solid darkmagenta; 
-    background-color: white; 
-    height: 245px; 
-}
-
-.TTT p{
-    font-size: 15px; 
-    text-align: center; 
-}
-    
 /*style the footer which holds all my contact info*/
 .contacts{
     background-color: black; 
