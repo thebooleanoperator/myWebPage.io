@@ -101,7 +101,8 @@ body{
 /*style the footer which holds all my contact info*/
 .contacts{
     background-color: black; 
-    height: 150px;
+    height: 100px;
+    padding: 33px;
 }
 
 #creator{
