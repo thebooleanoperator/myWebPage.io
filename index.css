@@ -20,7 +20,56 @@ body{
     font-size: 30px; 
     color: darkslategrey;  
     position: absolute;  
-    top: 55%;  
+    top: 40%;  
+}
+
+#introHeader{
+    color: darkslategrey;   
+    position: absolute; 
+    float: left;
+    font-size: 65px;  
+    top: 25%; 
+}
+
+/*style the github, linkedin, and resume links*/
+
+#github{
+    position: absolute; 
+    text-decoration: none; 
+    top: 75%; 
+    left: 10%; 
+}
+
+#githubImg{
+    border-radius: 50%; 
+}
+
+#resume{
+    position: absolute; 
+    font-size: 35px; 
+    border: 3px solid black; 
+    padding: 10px; 
+    background-color: black; 
+    border-radius: 50%; 
+    text-decoration: none; 
+    color: white; 
+    top: 75%; 
+    left: 47%; 
+}
+
+#resume:hover{
+    color: lightgreen;
+}
+
+#linkedin{
+    position: absolute; 
+    text-decoration: none; 
+    top: 75%;
+    left: 85%;
+}
+
+#linkedinImg{
+    border-radius: 50%;
 }
 
 
@@ -39,7 +88,8 @@ body{
     padding:0;
     z-index: 1;
     width: 100%;
-    background-color: black
+    background-color: black;
+    height: 50px;
 }
 
 .navLink{
@@ -55,24 +105,19 @@ body{
   color: lightgreen;
 }
 
-#introHeader{
-    display: block;
-    color: white;   
-    float: left;
-    font-size: 40px;   
-}
+
 
 /*styling the projects sections of the web page*/
 .projects{
-    background-color: seashell; 
-    height: 700px; 
+    background-color: lightyellow; 
+    height: 800px; 
     position: relative;
 }
 
 #projectHeader{
     text-align: center; 
     font-size: 38px; 
-    color: darkmagenta;
+    color: darkslateblue;
     margin: 0; 
 }
 
@@ -82,7 +127,7 @@ body{
     top: 15%;
     left: 5%; 
     border: 5px solid darkmagenta;  
-    background-color: whitesmoke;
+    background-color: white;
     height: 245px;
 }
 
@@ -97,67 +142,13 @@ body{
     top: 15%; 
     left: 40%; 
     border: 5px solid darkmagenta; 
-    background-color: whitesmoke; 
+    background-color: white; 
     height: 245px; 
 }
 
 .TTT p{
     font-size: 15px; 
     text-align: center; 
-}
-
-/*style my links to Github and LinkedIn*/
-.additional{
-    position: relative;
-    background-color: whitesmoke; 
-    height: 400px; 
-}
-
-#checkOut{
-    margin: 0; 
-    text-align: center; 
-    font-size: 38px; 
-    color: orangered; 
-}
-
-#github{
-    position: absolute; 
-    font-size: 45px; 
-    border: 3px solid orangered; 
-    padding: 10px; 
-    background-color: orangered; 
-    border-radius: 50%; 
-    text-decoration: none; 
-    color: white; 
-    top: 35%;
-    left: 5%; 
-}
-
-#linkedin{
-    position: absolute; 
-    font-size: 45px; 
-    border: 3px solid orangered; 
-    padding: 10px; 
-    background-color: orangered; 
-    border-radius: 50%; 
-    text-decoration: none; 
-    color: white; 
-    top: 35%;
-    left: 43%; 
-}
-
-
-#resume{
-    position: absolute; 
-    font-size: 45px; 
-    border: 3px solid orangered; 
-    padding: 10px; 
-    background-color: orangered; 
-    border-radius: 50%; 
-    text-decoration: none; 
-    color: white; 
-    top: 35%;
-    left: 80%;
 }
     
 /*style the footer which holds all my contact info*/
