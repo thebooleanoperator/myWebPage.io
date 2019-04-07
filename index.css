@@ -1,0 +1,193 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+body{
+    margin: 0; 
+}
+
+/*styling of the introduction section*/
+.introduction{
+    background-color: snow; 
+    height: 1000px;  
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#welcome{
+    position: absolute;
+    top: 0;  
+    color: darkred; 
+    font-size: 75px; 
+}
+
+#introHeader{
+    font-size: 50px; 
+    color: darkslategrey;  
+    position: absolute;  
+    top: 45%
+}
+
+#myMessage{
+    font-size: 30px; 
+    color: darkslategrey;  
+    position: absolute;  
+    top: 55%;  
+}
+
+
+/*styling of the navigation bar that scrolls with user*/
+li{
+    float: right; 
+    text-decoration: none; 
+    background-color: honeydew; 
+    border-radius: 50%; 
+    margin-left: 10px;
+    margin-right: 10px;   
+    list-style-type: none; 
+    border: 1px solid black; 
+}
+
+.navBar{
+    position: fixed; 
+    margin: 0;
+    padding:0;
+    z-index: 1;
+    width: 100%;
+}
+
+.navLink{
+    display: block;
+    color: darkblue;
+    text-decoration: none; 
+    font-style: bold;
+    padding: 8px; 
+}
+
+li:hover{
+  background-color: lightgreen;
+}
+
+/*styling the projects sections of the web page*/
+.projects{
+    background-color: seashell; 
+    height: 700px; 
+    position: relative;
+}
+
+#projectHeader{
+    text-align: center; 
+    font-size: 38px; 
+    color: darkmagenta;
+    margin: 0; 
+}
+
+/*style Ron Swanson project*/
+.quoteMachine{
+    position: absolute; 
+    top: 15%;
+    left: 5%; 
+    border: 5px solid darkmagenta;  
+    background-color: whitesmoke;
+    height: 245px;
+}
+
+.quoteMachine p{
+    font-size: 15px;
+    text-align: center; 
+}
+
+/*style Tic Tac Toe project*/
+.TTT{
+    position: absolute; 
+    top: 15%; 
+    left: 40%; 
+    border: 5px solid darkmagenta; 
+    background-color: whitesmoke; 
+    height: 245px; 
+}
+
+.TTT p{
+    font-size: 15px; 
+    text-align: center; 
+}
+
+/*style my links to Github and LinkedIn*/
+.additional{
+    position: relative;
+    background-color: whitesmoke; 
+    height: 400px; 
+}
+
+#checkOut{
+    margin: 0; 
+    text-align: center; 
+    font-size: 38px; 
+    color: orangered; 
+}
+
+#github{
+    position: absolute; 
+    font-size: 45px; 
+    border: 3px solid orangered; 
+    padding: 10px; 
+    background-color: orangered; 
+    border-radius: 50%; 
+    text-decoration: none; 
+    color: white; 
+    top: 35%;
+    left: 5%; 
+}
+
+#linkedin{
+    position: absolute; 
+    font-size: 45px; 
+    border: 3px solid orangered; 
+    padding: 10px; 
+    background-color: orangered; 
+    border-radius: 50%; 
+    text-decoration: none; 
+    color: white; 
+    top: 35%;
+    left: 43%; 
+}
+
+
+#resume{
+    position: absolute; 
+    font-size: 45px; 
+    border: 3px solid orangered; 
+    padding: 10px; 
+    background-color: orangered; 
+    border-radius: 50%; 
+    text-decoration: none; 
+    color: white; 
+    top: 35%;
+    left: 80%;
+}
+    
+/*style the footer which holds all my contact info*/
+.contacts{
+    background-color: black; 
+}
+
+#creator{
+    margin: 0; 
+    color: white; 
+    font-size: 20px; 
+    text-align: center; 
+}
+
+#phone{
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+}
+
+#email{
+    color: white;
+    font-size: 20px; 
+    text-align: center; 
+}
