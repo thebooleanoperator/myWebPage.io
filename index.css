@@ -16,20 +16,6 @@ body{
     align-items: center; 
 }
 
-#welcome{
-    position: absolute;
-    top: 0;  
-    color: darkred; 
-    font-size: 75px; 
-}
-
-#introHeader{
-    font-size: 50px; 
-    color: darkslategrey;  
-    position: absolute;  
-    top: 45%
-}
-
 #myMessage{
     font-size: 30px; 
     color: darkslategrey;  
@@ -39,15 +25,12 @@ body{
 
 
 /*styling of the navigation bar that scrolls with user*/
-li{
+.link{
     float: right; 
     text-decoration: none; 
-    background-color: honeydew; 
-    border-radius: 50%; 
     margin-left: 10px;
     margin-right: 10px;   
     list-style-type: none; 
-    border: 1px solid black; 
 }
 
 .navBar{
@@ -56,18 +39,27 @@ li{
     padding:0;
     z-index: 1;
     width: 100%;
+    background-color: black
 }
 
 .navLink{
     display: block;
-    color: darkblue;
+    color: white;
     text-decoration: none; 
     font-style: bold;
     padding: 8px; 
+    font-size: 20px;
 }
 
-li:hover{
-  background-color: lightgreen;
+.navLink:hover{
+  color: lightgreen;
+}
+
+#introHeader{
+    display: block;
+    color: white;   
+    float: left;
+    font-size: 40px;   
 }
 
 /*styling the projects sections of the web page*/
