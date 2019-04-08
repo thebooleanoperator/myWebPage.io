@@ -1,5 +1,5 @@
 html{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 body{
@@ -23,17 +23,18 @@ body{
 }
 
 #myMessage{
-    font-size: 30px; 
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;  
     position: absolute;  
-    top: 40%;  
+    top: 35%;  
 }
 
 #introHeader{
     color: whitesmoke;   
     position: absolute; 
     float: left;
-    font-size: 65px;  
+    font-size: 75px;  
     top: 25%; 
 }
 
