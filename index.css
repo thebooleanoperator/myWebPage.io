@@ -9,7 +9,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover; 
     box-shadow: inset 0 0 0 1000px rgba(248, 216, 216, 0.23);
-
+    height: 100%;
+    width: 100%;
 }
 
 /*styling of the navigation bar that scrolls with user*/
@@ -48,7 +49,7 @@ body{
     color: rgba(54, 2, 2, 0.7);  
     text-align: center;
     font-size: 100px;  
-    margin: 205px 0 0 0;
+    margin: 11% 0 0 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
