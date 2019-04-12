@@ -48,7 +48,7 @@ body{
 #introHeader{
     color: rgba(54, 2, 2, 0.7);  
     text-align: center;
-    font-size: 10vh;  
+    font-size: 12vh;  
     margin: 11% 0 0 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -72,13 +72,15 @@ body{
 
 #github{
     text-decoration: none; 
-    margin: 35px 10px 0 10px;  
+    margin: 35px 5px 0 5px; 
 }
 
 #githubImg{
     border-radius: 50%; 
     border: 8px solid rgba(248, 216, 216, 0.11);
     opacity: .7;
+    height: 60px;
+    width: 60px;
 }
 
 #githubImg:hover{
@@ -89,7 +91,7 @@ body{
 
 #resume{
     text-decoration: none; 
-    margin: 35px 10px 0 10px; 
+    margin: 35px 5px 0 5px; 
     border-radius: 50%;
 }
 
@@ -97,6 +99,8 @@ body{
     border: 8px solid rgba(248, 216, 216, 0.11);; 
     border-radius: 50%; 
     opacity: .7;
+    height: 60px;
+    width: 60px;
 }
 
 #resumeImg:hover{
@@ -107,13 +111,15 @@ body{
 
 #portfolio{
     text-decoration: none; 
-    margin: 35px 10px 0 10px; 
+    margin: 35px 5px 0 5px; 
 }
 
 #portfolioImg{
     border: 8px solid rgba(248, 216, 216, 0.11);
     border-radius: 50%;
     opacity: .7;
+    height: 60px;
+    width: 60px;
 }
 
 #portfolioImg:hover{
@@ -125,7 +131,7 @@ body{
 
 #linkedin{
     text-decoration: none; 
-    margin: 35px 10px 0 10px; 
+    margin: 35px 5px 0 5px; 
     text-decoration: none; 
 }
 
@@ -133,6 +139,8 @@ body{
     border: 8px solid rgba(248, 216, 216, 0.11);
     border-radius: 50%;
     opacity: .7;
+    height: 60px;
+    width: 60px;
 }
 
 #linkedinImg:hover{
