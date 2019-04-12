@@ -4,109 +4,31 @@ html{
 
 body{
     margin: 0; 
-    background-image: url("https://images.pexels.com/photos/1038935/pexels-photo-1038935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-position: center; 
+    background-image: url("https://images.sharefaith.com/images/3/1486074995858_23/img_mouseover3.jpg");
+    background-position: center center; 
     background-repeat: no-repeat;
     background-size: cover; 
-    box-shadow: inset 0 0 0 1000px rgba(2, 39, 250, 0.23);
+    box-shadow: inset 0 0 0 1000px rgba(248, 216, 216, 0.23);
 
 }
-
-/*box-shadow: inset 0 0 0 1000px rgba(56, 247, 135, 0.13);*/
-
-/*styling of the introduction section*/
-.introduction{ 
-    height: 100%;  
-    width: 100%; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
-
-#myMessage{
-    font-size: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: whitesmoke;  
-    position: absolute;  
-    top: 40%;  
-}
-
-#introHeader{
-    color: whitesmoke;   
-    position: absolute; 
-    float: left;
-    font-size: 75px;  
-    top: 30%; 
-}
-
-/*style the github, linkedin, and resume links*/
-
-#github{
-    position: absolute; 
-    text-decoration: none; 
-    top: 50%; 
-    left: 32%; 
-}
-
-#githubImg{
-    border-radius: 50%; 
-}
-
-#resume{
-    position: absolute;
-    text-decoration: none; 
-    top: 50%;
-    left: 42%;
-    border: 8px solid black; 
-    border-radius: 50%;
-}
-
-#resumeImg{
-    border-radius: 50%; 
-}
-
-#portfolio{
-    position: absolute;
-    text-decoration: none; 
-    top: 50%;
-    left: 52%;
-    border: 8px solid black;
-    border-radius: 50%;
-}
-
-#portfolioImg{
-    border-radius: 50%;
-}
-
-#linkedin{
-    position: absolute; 
-    text-decoration: none; 
-    top: 50%;
-    left: 62%;
-}
-
-#linkedinImg{
-    border-radius: 50%;
-}
-
 
 /*styling of the navigation bar that scrolls with user*/
+.navBar{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
 .link{
     float: right; 
     text-decoration: none; 
-    margin-left: 10px;
-    margin-right: 10px;   
+    margin: 0 10px 0 10px;
     list-style-type: none; 
-}
-
-.navBar{
-    position: fixed; 
-    margin: 0;
-    padding:0;
-    z-index: 1;
-    width: 100%;
-    background-color: black;
-    height: 50px;
+    text-align: center;
 }
 
 .navLink{
@@ -114,18 +36,121 @@ body{
     color: white;
     text-decoration: none; 
     font-style: bold;
-    padding: 8px; 
     font-size: 20px;
 }
 
 .navLink:hover{
-  color: lightgreen;
+    color: rgba(247, 82, 82, 0.815);
 }
+
+/*My name as a title*/
+#introHeader{
+    color: rgba(54, 2, 2, 0.7);  
+    text-align: center;
+    font-size: 100px;  
+    margin: 205px 0 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*My message about being an engineer*/
+#myMessage{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(54, 2, 2, 0.7); 
+    margin: 5px 0 0 0; 
+    text-align: center;
+}
+
+
+/*style the github, linkedin, and resume links*/
+.introduction{ 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#github{
+    text-decoration: none; 
+    margin: 35px 10px 0 10px;  
+}
+
+#githubImg{
+    border-radius: 50%; 
+    border: 8px solid rgba(248, 216, 216, 0.11);
+    opacity: .7;
+}
+
+#githubImg:hover{
+    border: 8px solid rgba(247, 82, 82, 0.815);
+    border-radius: 50%; 
+    opacity: 1;
+}
+
+#resume{
+    text-decoration: none; 
+    margin: 35px 10px 0 10px; 
+    border-radius: 50%;
+}
+
+#resumeImg{
+    border: 8px solid rgba(248, 216, 216, 0.11);; 
+    border-radius: 50%; 
+    opacity: .7;
+}
+
+#resumeImg:hover{
+    border: 8px solid rgba(247, 82, 82, 0.815);
+    border-radius: 50%; 
+    opacity: 1;
+}
+
+#portfolio{
+    text-decoration: none; 
+    margin: 35px 10px 0 10px; 
+}
+
+#portfolioImg{
+    border: 8px solid rgba(248, 216, 216, 0.11);
+    border-radius: 50%;
+    opacity: .7;
+}
+
+#portfolioImg:hover{
+    border: 8px solid rgba(247, 82, 82, 0.815);
+    border-radius: 50%;
+    opacity: 1;
+}
+
+
+#linkedin{
+    text-decoration: none; 
+    margin: 35px 10px 0 10px; 
+    text-decoration: none; 
+}
+
+#linkedinImg{
+    border: 8px solid rgba(248, 216, 216, 0.11);
+    border-radius: 50%;
+    opacity: .7;
+}
+
+#linkedinImg:hover{
+    border: 8px solid rgba(247, 82, 82, 0.815);
+    border-radius: 50%;
+    opacity: 1;
+}
+
+
 
 /*style the footer which holds all my contact info*/
 .contacts{
-    background-color: black; 
-    height: 120px;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
 }
 
 #creator{
@@ -139,6 +164,7 @@ body{
     color: white;
     font-size: 20px;
     text-align: center; 
+    margin: 0;
 }
 
 #email{
