@@ -8,7 +8,7 @@ body{
     background-position: center center; 
     background-repeat: no-repeat;
     background-size: cover; 
-    box-shadow: inset 0 0 0 1000px rgba(248, 216, 216, 0.23);
+    box-shadow: inset 0 0 0 1000px rgba(245, 135, 135, 0.23);
     height: 100%;
     width: 100%;
 }
