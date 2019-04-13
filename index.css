@@ -4,7 +4,7 @@ html{
 
 body{
     margin: 0; 
-    background-image: url("https://images.sharefaith.com/images/3/1486074995858_23/img_mouseover3.jpg");
+    background-image: url("http://kingdomkompilations.com/wp-content/uploads/2015/05/nature-wallpapers-wallpaper-white-black-image-fresh-nature-images-roads-wallpaper-41162.jpg");
     background-position: center center; 
     background-repeat: no-repeat;
     background-size: cover; 
@@ -79,8 +79,8 @@ body{
     border-radius: 50%; 
     border: 8px solid rgba(248, 216, 216, 0.11);
     opacity: .7;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
 }
 
 #githubImg:hover{
@@ -99,8 +99,8 @@ body{
     border: 8px solid rgba(248, 216, 216, 0.11);; 
     border-radius: 50%; 
     opacity: .7;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
 }
 
 #resumeImg:hover{
@@ -118,8 +118,8 @@ body{
     border: 8px solid rgba(248, 216, 216, 0.11);
     border-radius: 50%;
     opacity: .7;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
 }
 
 #portfolioImg:hover{
@@ -139,8 +139,8 @@ body{
     border: 8px solid rgba(248, 216, 216, 0.11);
     border-radius: 50%;
     opacity: .7;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
 }
 
 #linkedinImg:hover{
